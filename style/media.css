@@ -1,0 +1,148 @@
+@media(max-width:800px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+}
+
+@media(max-width:1288px) {
+    .intro {
+        height: 500px;
+    }
+
+    .intro__title {
+        font-size: 80px;
+    }
+}
+
+@media(max-width:930px) {
+    .intro {
+        height: 400px;
+    }
+
+    .intro__title {
+        font-size: 60px;
+    }
+
+    .intro__link {
+        line-height: 20px;
+        font-size: 17px;
+        padding: 8px 22px;
+        width: 190px;
+        line-height: 20px;
+    }
+
+
+}
+
+@media(max-width:737px) {
+    .intro {
+        height: 300px;
+    }
+
+    .intro__title {
+        font-size: 50px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .intro__link {
+        line-height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 5px 21px;
+        width: 170px
+    }
+}
+
+@media(max-width:1134px) {
+    .sectionone {
+        gap: 90px;
+    }
+
+    .sectionone p {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .sectionone img {
+        height: 300px;
+    }
+
+}
+
+@media(max-width:1110px) {
+    .sectionone {
+        gap: 90px;
+    }
+
+    .sectionone p {
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .sectionone img {
+        height: 300px;
+    }
+
+}
+
+@media(max-width:1070px) {
+    .sectionone {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sectionone img {
+        height: 250px;
+    }
+
+
+}
+
+@media(max-width:413px) {
+
+
+    .sectionone img {
+        height: 200px;
+    }
+}
+
+@media(max-width:413px) {
+
+
+    .sectionone img {
+        height: 150px;
+    }
+
+    .sectionone p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:460px) {
+    .intro {
+        height: 200px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+}
